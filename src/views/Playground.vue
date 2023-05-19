@@ -1,5 +1,6 @@
 <template>
   <div class="main-content">
+    <h1>Ant-design playground</h1>
     <buttons-section />
 
     <exposition-card title="Inputs">
