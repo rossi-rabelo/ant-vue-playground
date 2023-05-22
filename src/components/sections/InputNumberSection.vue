@@ -3,6 +3,10 @@
     <div class="section">
       <ant-input-number :min="1" :max="10" />
       <ant-input-number :min="1" :max="10" disabled/>
+      <span style="border: 1px solid black; padding: 3px">
+        <ant-input-number :min="1" :max="10" decimal-separator=","/>
+        With , as separator
+      </span>
       
       <!-- With Addons -->
       <ant-input-number addon-before="+" addon-after="$"></ant-input-number>
