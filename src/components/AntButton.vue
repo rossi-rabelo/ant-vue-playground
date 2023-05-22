@@ -19,6 +19,3 @@ const handleBlur = () => {
   emit('click')
 }
 </script>
-
-<style scoped lang="scss">
-</style>

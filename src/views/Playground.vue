@@ -3,6 +3,8 @@
     <h1>Ant-design playground</h1>
     <buttons-section />
 
+    <colors-section />
+
     <exposition-card title="Inputs">
       <div class="section column">
         <input-section />
@@ -85,6 +87,7 @@ import TagSection from '../components/sections/TagSection.vue';
 import TableSection from '../components/sections/TableSection.vue';
 import AlertSection from '../components/sections/AlertSection.vue';
 import TooltipSection from '../components/sections/TooltipSection.vue';
+import ColorsSection from '../components/sections/ColorsSection.vue';
 
 import ExpositionCard from '../components/ExpositionCard.vue';
 </script>
