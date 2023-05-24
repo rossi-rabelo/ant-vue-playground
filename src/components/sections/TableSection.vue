@@ -54,6 +54,7 @@ import AntTable from '../AntTable.vue';
 import AntTag from '../AntTag.vue';
 
 import { SmileOutlined, DownOutlined } from '@ant-design/icons-vue';
+import { Divider as ADivider } from 'ant-design-vue';
 
 const columns = [
   {
