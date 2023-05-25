@@ -60,6 +60,8 @@
     </exposition-card>
 
     <line-height-section />
+
+    <icons-section />
   </div>
 </template>
 
@@ -91,6 +93,7 @@ import AlertSection from '../components/sections/AlertSection.vue';
 import TooltipSection from '../components/sections/TooltipSection.vue';
 import ColorsSection from '../components/sections/ColorsSection.vue';
 import LineHeightSection from '../components/sections/LineHeightSection.vue';
+import IconsSection from '../components/sections/IconsSection.vue';
 
 import ExpositionCard from '../components/ExpositionCard.vue';
 </script>
