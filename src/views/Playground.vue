@@ -58,6 +58,8 @@
         <tooltip-section />
       </div>
     </exposition-card>
+
+    <line-height-section />
   </div>
 </template>
 
@@ -88,6 +90,7 @@ import TableSection from '../components/sections/TableSection.vue';
 import AlertSection from '../components/sections/AlertSection.vue';
 import TooltipSection from '../components/sections/TooltipSection.vue';
 import ColorsSection from '../components/sections/ColorsSection.vue';
+import LineHeightSection from '../components/sections/LineHeightSection.vue';
 
 import ExpositionCard from '../components/ExpositionCard.vue';
 </script>
