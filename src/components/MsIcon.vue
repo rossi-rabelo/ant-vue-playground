@@ -3,12 +3,12 @@
 </template>
 
 <script setup>
-import * as icons from './icons'
+import * as icons from './icons';
 
 const props = defineProps({
   name: {
     type: String,
-    default: ''
+    required: true
   }
 })
 </script>
