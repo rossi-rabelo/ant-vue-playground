@@ -62,6 +62,10 @@
     <line-height-section />
 
     <icons-section />
+
+    <compositions-section />
+
+    <compositions-default-section />
   </div>
 </template>
 
@@ -94,6 +98,8 @@ import TooltipSection from '../components/sections/TooltipSection.vue';
 import ColorsSection from '../components/sections/ColorsSection.vue';
 import LineHeightSection from '../components/sections/LineHeightSection.vue';
 import IconsSection from '../components/sections/IconsSection.vue';
+import CompositionsSection from '../components/sections/CompositionsSection.vue';
+import CompositionsDefaultSection from '../components/sections/CompositionsDefaultSection.vue';
 
 import ExpositionCard from '../components/ExpositionCard.vue';
 </script>
