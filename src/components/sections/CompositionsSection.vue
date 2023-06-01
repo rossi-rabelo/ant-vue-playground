@@ -1,5 +1,5 @@
 <template>
-  <exposition-card title="Compositions">
+  <exposition-card title="Compositions Hardcoded">
     <div class="section">
       <action-card />
 

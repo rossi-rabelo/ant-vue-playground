@@ -12,7 +12,7 @@ import ExpositionCard from '../ExpositionCard.vue';
 import MsIcon from '../MsIcon.vue';
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 @import '../../assets/main.less';
 
 .small-icon {

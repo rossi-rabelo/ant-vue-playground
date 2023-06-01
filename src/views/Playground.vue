@@ -63,9 +63,11 @@
 
     <icons-section />
 
+    <compositions-default-section />
+    
     <compositions-section />
 
-    <compositions-default-section />
+    <floater-section />
   </div>
 </template>
 
@@ -100,6 +102,7 @@ import LineHeightSection from '../components/sections/LineHeightSection.vue';
 import IconsSection from '../components/sections/IconsSection.vue';
 import CompositionsSection from '../components/sections/CompositionsSection.vue';
 import CompositionsDefaultSection from '../components/sections/CompositionsDefaultSection.vue';
+import FloaterSection from '../components/sections/FloaterSection.vue';
 
 import ExpositionCard from '../components/ExpositionCard.vue';
 </script>

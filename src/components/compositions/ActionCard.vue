@@ -14,7 +14,7 @@
 
       <div class="responsible flex">
         <div class="avatar flex column justify-center">
-          <ms-icon name="User"/>
+          <ms-icon name="User" style="fill: #5788FD"/>
         </div>
 
         <div class="flex column">

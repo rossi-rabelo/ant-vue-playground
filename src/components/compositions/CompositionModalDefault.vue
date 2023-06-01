@@ -8,13 +8,10 @@
       class="modal"
       width="624px"
       v-model:visible="visible"
+      ok-text="Conversar com o suporte"
+      cancel-text="Sair"
+      title="Olá, Fulano"
     >
-      <template #title>
-        <div class="title-container">
-          <h3 class="title">Olá, Fulano</h3>
-        </div>
-      </template>
-
       <div class="body">
         Seu pedido de cancelamento foi realizado, aguarde o contato do
         Sucesso do Cliente para confirmar o cancelamento.
@@ -22,26 +19,6 @@
         <br>
         Não existirão cobranças excedentes a partir da data do pedido.
       </div>
-
-      <template #footer>
-        <div class="flex justify-end footer">
-          <ant-button
-            class="cancel btn"
-            type="primary"
-            @click="handleCancel"
-          >
-            Sair
-          </ant-button>
-
-          <ant-button
-            class="submit btn"
-            type="primary"
-            @click="handleOk"
-          >
-            Conversar com o suporte
-          </ant-button>
-        </div>
-      </template>
     </ant-modal>
   </div>
 </template>
@@ -73,23 +50,7 @@ const handleOk = () => {
   }
 
   .body {
-    color: #202124;
-    font-weight: bold;
     padding: 0 16px;
-  }
-  .footer {
-    gap: 20px;
-    padding: 8px;
-    .cancel {
-      background-color: #EBEDF3;
-      border-color: #EBEDF3;
-      color: black;
-      width: 218px;
-    }
-
-    .submit {
-      width: 248px;
-    }
   }
 }
 </style>

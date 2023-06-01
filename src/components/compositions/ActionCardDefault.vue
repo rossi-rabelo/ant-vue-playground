@@ -14,7 +14,7 @@
 
       <div class="responsible flex">
         <div class="avatar flex column justify-center">
-          <ms-icon name="User"/>
+          <ms-icon name="User" style="fill: #5788FD"/>
         </div>
 
         <div class="flex column">
@@ -49,12 +49,10 @@ import MsIcon from '../MsIcon.vue';
     }
 
     .responsible {
-      border: 1px solid #EBEDF3;
       gap: 8px;
       width: 80%;
 
       .avatar {
-        background-color: #EEF3FF;
         padding: 8px;
       }
     }
