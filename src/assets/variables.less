@@ -19,11 +19,6 @@
 @font-size-base: 14px;
 @font-size-lg: @font-size-base + 2px;
 @font-size-sm: 12px;
-@heading-1-size: ceil(@font-size-base * 2.71);
-@heading-2-size: ceil(@font-size-base * 2.14);
-@heading-3-size: ceil(@font-size-base * 1.71);
-@heading-4-size: ceil(@font-size-base * 1.42);
-@heading-5-size: ceil(@font-size-base * 1.14);
 
 // White and Black
 @white: #FFFFFF;
@@ -88,11 +83,24 @@
 @error-color: @red-6;
 @warning-color: @orange-6;
 
-@btn-font-weight: @rkt-font-weight-semibold;
+@btn-font-weight: @rkt-font-weight-medium;
 @select-item-selected-font-weight: @rkt-font-weight-semibold;
 @badge-font-weight: @rkt-font-weight-semibold;
 @pagination-font-weight-active: @rkt-font-weight-semibold;
 @typography-title-font-weight: @rkt-font-weight-medium;
+
+// Headings
+@heading-1-size: @rkt-heading-1-size;
+@heading-2-size: @rkt-heading-2-size;
+@heading-3-size: @rkt-heading-3-size;
+@heading-4-size: @rkt-heading-4-size;
+@heading-5-size: @rkt-heading-5-size;
+
+// Border
+@border-color-base: @rkt-gray-2; // base border outline a component
+@border-color-split: @rkt-gray-2; // split border inside a component
+@border-width-base: 1px; // width of the border for a component
+@border-style-base: solid; // style of a components border
 
 // Personalizados
 
@@ -106,3 +114,32 @@
 @rkt-line-height-medium: 1.35;
 @rkt-line-height-large: 1.55;
 @rkt-line-height-xlarge: 1.75;
+
+@rkt-heading-1-size: 40px;
+@rkt-heading-2-size: 32px;
+@rkt-heading-3-size: 28px;
+@rkt-heading-4-size: 24px;
+@rkt-heading-5-size: 20px;
+@rkt-heading-6-size: 18px;
+
+@rkt-gray-1: #F8FAFC;
+@rkt-gray-2: #E5EAF0;
+@rkt-gray-3: #D0D5DD;
+@rkt-gray-4: #B8BFCC;
+@rkt-gray-5: #ABB4C2;
+@rkt-gray-6: #99A5B5;
+@rkt-gray-7: #8997AA;
+@rkt-gray-8: #8391A5;
+@rkt-gray-9: #7D8BA1;
+@rkt-gray-10: #77869C;
+
+@rkt-dark-gray-1: #67778E;
+@rkt-dark-gray-2: #637288;
+@rkt-dark-gray-3: #566476;
+@rkt-dark-gray-4: #515E70;
+@rkt-dark-gray-5: #4D596A;
+@rkt-dark-gray-6: #404A59;
+@rkt-dark-gray-7: #3C4553;
+@rkt-dark-gray-8: #38404D;
+@rkt-dark-gray-9: #2B313B;
+@rkt-dark-gray-10: #272D35;
