@@ -1,18 +1,29 @@
 // @success-color: #52c41a; // success state color
 // @warning-color: #faad14; // warning state color
 // @error-color: #f5222d; // error state color
-@font-size-base: 14px; // major text font size
+
+// General
 @heading-color: rgba(0, 0, 0, 0.85); // heading text color
 @text-color: rgba(0, 0, 0, 0.85); // major text color
 @text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
 @disabled-color: rgba(0, 0, 0, 0.25); // disable state color
-@border-radius-base: 2px; // major border radius
+@border-radius-base: 8px; // major border radius
 @border-color-base: #d9d9d9; // major border color
 @box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // major shadow for layers
-@line-height-base: 1.15;
+@line-height-base: @rkt-line-height-medium;
 
 // @background-color-base: rgba(255,0,0,.50);
 // @disabled-color: blue;
+
+// Font size
+@font-size-base: 14px;
+@font-size-lg: @font-size-base + 2px;
+@font-size-sm: 12px;
+@heading-1-size: ceil(@font-size-base * 2.71);
+@heading-2-size: ceil(@font-size-base * 2.14);
+@heading-3-size: ceil(@font-size-base * 1.71);
+@heading-4-size: ceil(@font-size-base * 1.42);
+@heading-5-size: ceil(@font-size-base * 1.14);
 
 // White and Black
 @white: #FFFFFF;
@@ -34,8 +45,64 @@
 // Green base
 @green-base: #10C971;
 
+@green-1: #E9FBEE;
+@green-2: #CAF5D6;
+@green-3: #A0EDB7;
+@green-4: #82E09E;
+@green-5: #6BD38A;
+@green-6: #10C971;
+@green-7: #0DA55D;
+@green-8: #0C8D4F;
+@green-9: #0B7443;
+@green-10: #095D35;
+
 // Orange base
 @orange-base: #FF8B0D;
 
+@orange-1: #FFF2E8;
+@orange-2: #FDDFBE;
+@orange-3: #F6C48F;
+@orange-4: #F5B168;
+@orange-5: #F8A44B;
+@orange-6: #FF8B0D;
+@orange-7: #E68013;
+@orange-8: #D37612;
+@orange-9: #C36E13;
+@orange-10: #A75E11;
+
 // Red base
 @red-base: #ED515E;
+
+@red-1: #FFF0F0;
+@red-2: #FEC8CB;
+@red-3: #F79EA3;
+@red-4: #F57279;
+@red-5: #F84650;
+@red-6: #F0242F;
+@red-7: #DE121E;
+@red-8: #C4111B;
+@red-9: #B0111A;
+@red-10: #9E1017;
+
+// Contextos
+@error-color: @red-6;
+@warning-color: @orange-6;
+
+@btn-font-weight: @rkt-font-weight-semibold;
+@select-item-selected-font-weight: @rkt-font-weight-semibold;
+@badge-font-weight: @rkt-font-weight-semibold;
+@pagination-font-weight-active: @rkt-font-weight-semibold;
+@typography-title-font-weight: @rkt-font-weight-medium;
+
+// Personalizados
+
+@rkt-font-weight-regular: 400;
+@rkt-font-weight-medium: 500;
+@rkt-font-weight-semibold: 600;
+@rkt-font-weight-bold: 700;
+
+@rkt-line-height-tiny: 1.0;
+@rkt-line-height-small: 1.15;
+@rkt-line-height-medium: 1.35;
+@rkt-line-height-large: 1.55;
+@rkt-line-height-xlarge: 1.75;

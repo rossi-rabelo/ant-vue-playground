@@ -18,17 +18,19 @@
         :key="heading.tag"
         class="heading-container"
       >
-        <component
+        <a-typography-title
           :is="heading.tag"
+          :level="heading.level"
           class="title"
         >
-          {{ heading.tag }}
-        </component>
-        <component
+          {{ `h${heading.level}` }}
+        </a-typography-title>
+        <a-typography-title
           :is="heading.tag"
           v-html="heading.text"
+          :level="heading.level"
         >
-        </component>
+        </a-typography-title>
       </div>
 
       <div
@@ -54,6 +56,7 @@
 
 <script setup>
 import ExpositionCard from '../ExpositionCard.vue';
+import { TypographyTitle as ATypographyTitle} from 'ant-design-vue';
 
 const texts = [
   {
@@ -70,15 +73,15 @@ const texts = [
 const headings = [
   {
     text: 'Este é um teste justo e curto de texto para verificar o Çedilha, bem como verificar o Àcento, letras MAÍUSCULAS e números 1, 2, 3 no geral.',
-    tag: 'h1'
+    level: 1
   },
   {
     text: 'Este é um teste &#128540; justo e curto de texto para verificar o Çedilha, bem como verificar o &#129315; Àcento, letras MAÍUSCULAS &#128526; e números 1, 2, 3 no geral.',
-    tag: 'h2'
+    level: 2
   },
   {
     text: 'Teste justo para o Çedilha e Ácento. Esse teste também é para MAIÚSCULAS.',
-    tag: 'h3'
+    level: 3
   }
 ]
 
