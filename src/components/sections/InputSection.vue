@@ -5,7 +5,7 @@
       <ant-input placeholder="default size" />
       <ant-input size="large" placeholder="large size" />
       <ant-input show-count :maxlength="20" />
-      <ant-input disabled/>
+      <ant-input disabled placeholder="disabled"/>
 
       <!-- With icons -->
       <ant-input placeholder="Basic usage">

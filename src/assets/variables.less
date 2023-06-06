@@ -1,3 +1,6 @@
+@import 'rkt-variables.less';
+@import 'rkt-colors.less';
+
 // @success-color: #52c41a; // success state color
 // @warning-color: #faad14; // warning state color
 // @error-color: #f5222d; // error state color
@@ -6,14 +9,7 @@
 @heading-color: rgba(0, 0, 0, 0.85); // heading text color
 @text-color: rgba(0, 0, 0, 0.85); // major text color
 @text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
-@disabled-color: rgba(0, 0, 0, 0.25); // disable state color
-@border-radius-base: 8px; // major border radius
-@border-color-base: #d9d9d9; // major border color
 @box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // major shadow for layers
-@line-height-base: @rkt-line-height-medium;
-
-// @background-color-base: rgba(255,0,0,.50);
-// @disabled-color: blue;
 
 // Font size
 @font-size-base: 14px;
@@ -102,44 +98,32 @@
 @border-width-base: 1px; // width of the border for a component
 @border-style-base: solid; // style of a components border
 
-// Personalizados
+// Placeholder
+@input-placeholder-color: @rkt-dark-gray-1;
 
-@rkt-font-weight-regular: 400;
-@rkt-font-weight-medium: 500;
-@rkt-font-weight-semibold: 600;
-@rkt-font-weight-bold: 700;
+// Disabled Colors
+@disabled-color: @rkt-gray-5;
+@disabled-bg: @rkt-gray-2;
+@disabled-active-bg: @rkt-gray-2;
 
-@rkt-line-height-tiny: 1.0;
-@rkt-line-height-small: 1.15;
-@rkt-line-height-medium: 1.35;
-@rkt-line-height-large: 1.55;
-@rkt-line-height-xlarge: 1.75;
+// Height
+@height-sm: 32px;
+@height-base: 40px;
+@height-lg: 48px;
 
-@rkt-heading-1-size: 40px;
-@rkt-heading-2-size: 32px;
-@rkt-heading-3-size: 28px;
-@rkt-heading-4-size: 24px;
-@rkt-heading-5-size: 20px;
-@rkt-heading-6-size: 18px;
+// Line Height
+@line-height-base: @rkt-line-height-md;
 
-@rkt-gray-1: #F8FAFC;
-@rkt-gray-2: #E5EAF0;
-@rkt-gray-3: #D0D5DD;
-@rkt-gray-4: #B8BFCC;
-@rkt-gray-5: #ABB4C2;
-@rkt-gray-6: #99A5B5;
-@rkt-gray-7: #8997AA;
-@rkt-gray-8: #8391A5;
-@rkt-gray-9: #7D8BA1;
-@rkt-gray-10: #77869C;
+// Border Radius
+@border-radius-base: @rkt-border-radius-sm;
 
-@rkt-dark-gray-1: #67778E;
-@rkt-dark-gray-2: #637288;
-@rkt-dark-gray-3: #566476;
-@rkt-dark-gray-4: #515E70;
-@rkt-dark-gray-5: #4D596A;
-@rkt-dark-gray-6: #404A59;
-@rkt-dark-gray-7: #3C4553;
-@rkt-dark-gray-8: #38404D;
-@rkt-dark-gray-9: #2B313B;
-@rkt-dark-gray-10: #272D35;
+@border-radius-sm: @rkt-border-radius-sm;
+
+// Border Radius dos componentes
+@btn-border-radius-base: @rkt-border-radius-md;
+@btn-border-radius-sm: @rkt-border-radius-md;
+@checkbox-border-radius: @rkt-border-radius-sm;
+@collapse-panel-border-radius: @rkt-border-radius-md;
+@table-border-radius-base: @rkt-border-radius-md;
+@card-radius: @rkt-border-radius-lg;
+@avatar-border-radius: @rkt-border-radius-md;
