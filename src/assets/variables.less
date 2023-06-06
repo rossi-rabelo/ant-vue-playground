@@ -6,10 +6,12 @@
 // @error-color: #f5222d; // error state color
 
 // General
-@heading-color: rgba(0, 0, 0, 0.85); // heading text color
-@text-color: rgba(0, 0, 0, 0.85); // major text color
-@text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
-@box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // major shadow for layers
+@heading-color: @black; // heading text color
+@text-color: @black; // major text color
+@text-color-secondary: @rkt-dark-gray-1; // secondary text color
+
+// Box Shadow
+@box-shadow-base: @rkt-shadow-4; // major shadow for layers
 
 // Font size
 @font-size-base: 14px;
@@ -21,17 +23,29 @@
 @black: #0F1114;
 
 // Blue scale
-@blue-base: #3D86F2;
-@blue-1: #E8F1FF;
-@blue-2: #DAE9FE;
-@blue-3: #C3D9FA;
-@blue-4: #8AB6F7;
-@blue-5: #73A9FA;
-@blue-6: #3D86F2;
-@blue-7: #2877ED;
-@blue-8: #1C6FEB;
-@blue-9: #1667E0;
-@blue-10: #145ECC;
+@blue-base: @rkt-blue-6;
+@blue-1: @rkt-blue-1;
+@blue-2: @rkt-blue-2;
+@blue-3: @rkt-blue-3;
+@blue-4: @rkt-blue-4;
+@blue-5: @rkt-blue-5;
+@blue-6: @rkt-blue-6;
+@blue-7: @rkt-blue-7;
+@blue-8: @rkt-blue-8;
+@blue-9: @rkt-blue-9;
+@blue-10: @rkt-blue-10;
+
+// Red scale
+@red-1: @rkt-red-1;
+@red-2: @rkt-red-2;
+@red-3: @rkt-red-3;
+@red-4: @rkt-red-4;
+@red-5: @rkt-red-5;
+@red-6: @rkt-red-6;
+@red-7: @rkt-red-7;
+@red-8: @rkt-red-8;
+@red-9: @rkt-red-9;
+@red-10: @rkt-red-10;
 
 // Green base
 @green-base: #10C971;
@@ -60,20 +74,6 @@
 @orange-8: #D37612;
 @orange-9: #C36E13;
 @orange-10: #A75E11;
-
-// Red base
-@red-base: #ED515E;
-
-@red-1: #FFF0F0;
-@red-2: #FEC8CB;
-@red-3: #F79EA3;
-@red-4: #F57279;
-@red-5: #F84650;
-@red-6: #F0242F;
-@red-7: #DE121E;
-@red-8: #C4111B;
-@red-9: #B0111A;
-@red-10: #9E1017;
 
 // Contextos
 @error-color: @red-6;
@@ -127,3 +127,30 @@
 @table-border-radius-base: @rkt-border-radius-md;
 @card-radius: @rkt-border-radius-lg;
 @avatar-border-radius: @rkt-border-radius-md;
+
+// Shadows
+@btn-shadow: 0 0 0 0;
+@btn-primary-shadow: 0 0 0 0;
+
+// Paddings
+@padding-lg: @rkt-padding-lg;
+@padding-md: @rkt-padding-md;
+@padding-sm: @rkt-padding-sm;
+@padding-xs: @rkt-padding-xs;
+@padding-xss: @rkt-padding-xss;
+
+// BTN PADDING
+@btn-padding-horizontal-base: @rkt-padding-sm;
+@btn-padding-horizontal-lg: @rkt-padding-sm;
+@btn-padding-horizontal-sm: @rkt-padding-sm;
+
+// BTN Default button colors
+@btn-default-color: @rkt-blue-6;
+@btn-default-bg: @white;
+@btn-default-border: @rkt-blue-2;
+
+// BTN Default button border size
+@btn-border-width: @rkt-border-width-md;
+
+// BTN default button line-height
+@btn-line-height: @rkt-line-height-xss;

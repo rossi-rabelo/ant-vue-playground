@@ -2,7 +2,7 @@
   <exposition-card title="Input">
     <div class="section">
       <ant-input size="small" placeholder="small size" />
-      <ant-input placeholder="default size" />
+      <ant-input />
       <ant-input size="large" placeholder="large size" />
       <ant-input show-count :maxlength="20" />
       <ant-input disabled placeholder="disabled"/>

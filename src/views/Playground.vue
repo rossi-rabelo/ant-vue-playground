@@ -3,6 +3,8 @@
     <h1>Ant-design playground</h1>
     <buttons-section />
 
+    <buttons-section-2 />
+
     <colors-section />
 
     <exposition-card title="Inputs">
@@ -73,6 +75,7 @@
 
 <script setup>
 import ButtonsSection from '../components/sections/ButtonsSection.vue';
+import ButtonsSection2 from '../components/sections/ButtonsSection2.vue';
 import DividerSection from '../components/sections/DividerSection.vue';
 import BreadCrumbsSection from '../components/sections/BreadCrumbsSection.vue';
 import DropdownSection from '../components/sections/DropdownSection.vue';
